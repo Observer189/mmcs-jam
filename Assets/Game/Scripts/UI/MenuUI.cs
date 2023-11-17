@@ -7,9 +7,10 @@ using UnityEngine.SceneManagement;
 public class MenuUI : MonoBehaviour
 {
     public SettingsUI settingsUI;
+    public string gameSceneName;
     public void ButtonStart()
     {
-        SceneLoader.Instance.LoadScene("Loading","Forest");
+        SceneLoader.Instance.LoadScene("Loading",gameSceneName);
         //SceneManager.LoadScene("Forest");
     }
     public void ButtonContinue()

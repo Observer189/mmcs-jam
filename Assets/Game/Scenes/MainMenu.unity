@@ -1907,6 +1907,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   settingsUI: {fileID: 1379506264}
+  gameSceneName: Game
 --- !u!1 &1690920292
 GameObject:
   m_ObjectHideFlags: 0
